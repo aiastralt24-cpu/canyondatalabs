@@ -1,0 +1,10 @@
+{
+  "name": "canyon-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "node scripts/check-site.mjs"
+  },
+  "devDependencies": {}
+}

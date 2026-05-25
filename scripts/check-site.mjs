@@ -8,9 +8,10 @@ for (const file of requiredFiles) {
 const html = readFileSync("index.html", "utf8");
 const requiredSnippets = [
   "<main id=\"main\">",
-  "Make every decision visible.",
-  "Not more software. More control.",
+  "Decisions are the product. We make them faster.",
+  "More clarity. More control.",
   "Start small. Prove fast. Scale clean.",
+  "Built for the people who own the stack.",
   "Sales & Distribution Intelligence",
   "Built inside real operating environments.",
   "data-contact-form"

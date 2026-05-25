@@ -344,26 +344,26 @@ aiPrompt?.addEventListener("click", () => {
   const challenge = form?.querySelector("select[name='challenge']");
   const message = form?.querySelector("textarea[name='message']");
   if (challenge) {
-    challenge.value = "Not sure - need a Discovery";
+    challenge.value = "Start with a Discovery";
   }
   if (message) {
-    message.value = "We need help framing the operating problem before choosing what to build. The decision that is slow, unclear, or costly is:";
+    message.value = "We want help framing the first proof. The decision that deserves more speed, clarity, or value is:";
     message.focus();
   }
-  if (note) note.textContent = "Start with the business pressure. The workshop turns it into a scoped proof.";
+  if (note) note.textContent = "Start with the business goal. The workshop turns it into a scoped proof.";
 });
 
 const layerData = {
   data: {
     kicker: "01 / Discovery",
-    title: "Find the decision gap",
-    copy: "A structured 1-3 day workshop with functional heads to map systems, pressure points, and the first proof worth building.",
-    points: ["System map", "Pressure points", "Proof scope"]
+    title: "Find the decision worth proving",
+    copy: "A structured 1-3 day workshop with functional heads to map systems, priorities, and the first proof worth building.",
+    points: ["System map", "Priorities", "Proof scope"]
   },
   models: {
     kicker: "02 / Paid Proof",
     title: "Prove it on real data",
-    copy: "A focused 4-8 week proof on one use case. Real intelligence, real constraints, real business value before a long commitment.",
+    copy: "A focused 4-8 week proof on one use case. Real intelligence, real constraints, real business value, ready for the next step.",
     points: ["Real data", "One use case", "Business value"]
   },
   systems: {

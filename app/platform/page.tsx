@@ -3,6 +3,7 @@ import Link from "next/link";
 import FadeUp from "@/components/FadeUp";
 import { Arrow, CheckList, FinalCTA } from "@/components/Sections";
 import { CardSection } from "@/components/DeepContent";
+import OfferingsArchitecture from "@/components/OfferingsArchitecture";
 import { MODULES } from "@/lib/site";
 import {
   DistributorHealthShell,
@@ -104,6 +105,8 @@ export default function PlatformPage() {
           </div>
         </div>
       </FadeUp>
+
+      <OfferingsArchitecture />
 
       {/* Live showcase */}
       <section className="showcase on-dark">

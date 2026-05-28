@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FinalCTA } from "@/components/Sections";
 import { CardSection, DarkGridSection, ResourceSection } from "@/components/DeepContent";
+import OfferingsArchitecture from "@/components/OfferingsArchitecture";
 
 export const metadata: Metadata = {
   title: "Solutions",
@@ -67,6 +68,7 @@ export default function Page() {
           },
         ]}
       />
+      <OfferingsArchitecture />
       <CardSection
         label="Core Offering 1"
         title={
